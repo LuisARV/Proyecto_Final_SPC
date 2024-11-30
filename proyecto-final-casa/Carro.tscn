@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://c4evutu0nkx3h"]
+
+[ext_resource type="Script" path="res://carro.gd" id="1_l5iff"]
+[ext_resource type="ArrayMesh" path="res://Carro1.obj" id="2_nq4er"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_nrf0s"]
+radius = 1.07684
+height = 5.08327
+
+[node name="Carro" type="CharacterBody3D"]
+script = ExtResource("1_l5iff")
+
+[node name="Carro1" type="MeshInstance3D" parent="."]
+transform = Transform3D(7, 0, 0, 0, 7, 0, 0, 0, 7, -0.176984, 0, -0.191061)
+mesh = ExtResource("2_nq4er")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(7, 0, 0, 0, -0.017837, -6.02489, 0, 6.99998, -0.0153524, -0.176984, 3.45455, -0.182258)
+shape = SubResource("CapsuleShape3D_nrf0s")
+
+[node name="Timer" type="Timer" parent="."]
+process_callback = 0

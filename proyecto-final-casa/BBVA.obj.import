@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://df7g424jlvowe"
+path="res://.godot/imported/BBVA.obj-81735bea20c9072f8a34440fa6ad6af8.mesh"
+
+[deps]
+
+files=["res://.godot/imported/BBVA.obj-81735bea20c9072f8a34440fa6ad6af8.mesh"]
+
+source_file="res://BBVA.obj"
+dest_files=["res://.godot/imported/BBVA.obj-81735bea20c9072f8a34440fa6ad6af8.mesh", "res://.godot/imported/BBVA.obj-81735bea20c9072f8a34440fa6ad6af8.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

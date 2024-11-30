@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://beh6c0lyvxgy1"
+path="res://.godot/imported/Puente2_0.obj-34cb6bca9b8c794beca19cb43dd0f43d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Puente2_0.obj-34cb6bca9b8c794beca19cb43dd0f43d.mesh"]
+
+source_file="res://Puente2_0.obj"
+dest_files=["res://.godot/imported/Puente2_0.obj-34cb6bca9b8c794beca19cb43dd0f43d.mesh", "res://.godot/imported/Puente2_0.obj-34cb6bca9b8c794beca19cb43dd0f43d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

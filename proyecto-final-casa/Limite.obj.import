@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dn303gykg3pgg"
+path="res://.godot/imported/Limite.obj-60f12192fa3f716b170c1f18cc1a9891.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Limite.obj-60f12192fa3f716b170c1f18cc1a9891.mesh"]
+
+source_file="res://Limite.obj"
+dest_files=["res://.godot/imported/Limite.obj-60f12192fa3f716b170c1f18cc1a9891.mesh", "res://.godot/imported/Limite.obj-60f12192fa3f716b170c1f18cc1a9891.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

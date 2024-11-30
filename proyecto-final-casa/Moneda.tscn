@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://c5l3lcyi28a8n"]
+
+[ext_resource type="PackedScene" uid="uid://dvu10jyjv5g0x" path="res://Basura.dae" id="1_m8mmb"]
+[ext_resource type="Script" path="res://moneda.gd" id="1_uxrce"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_euswt"]
+radius = 1.21933
+
+[node name="Coin" type="Area3D"]
+script = ExtResource("1_uxrce")
+
+[node name="Basura" parent="." instance=ExtResource("1_m8mmb")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.784216, 0.423337)
+shape = SubResource("SphereShape3D_euswt")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
